@@ -69,16 +69,7 @@ class Create extends React.Component{
                 <div className="w3-container w3-padding">
                 <div style={{paddingBottom: "20px"}}>
                     <h2 style={{paddingBottom: "20px"}} >Create Mix Account</h2>
-                
-
-                {/* <!-- <div classN="form-group loginText">
-                    <label for="medhexPass">Passphrase</label>
-                    <input class="form-control" id="medhexPass" placeholder="" type="password">
-                </div>
-                <div class="form-group loginText">
-                    <label for="medhexPass2">Retype Passphrase</label>
-                    <input class="form-control" id="medhexPass2" placeholder="" type="password">
-                </div> --> */}
+            
                     <div  style={{paddingBottom: "20px"}}>
                         
                         <button onClick= {this.createHandle.bind(this)} id="create" type="button" className="w3-button w3-theme"><i className=""></i> &nbsp;Create</button>&nbsp;&nbsp;
